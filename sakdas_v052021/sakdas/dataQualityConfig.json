@@ -1,0 +1,17 @@
+{
+    "number_of_record":"func_cntNumberOfRecord",
+    "number_of_record_after_dedup":"func_cntNumberOfRecordAfterDedup",
+    "number_of_dupRecord":"func_cntNumberOfDupRecord",
+    "column_list":"func_getColumnListWithType",
+    "number_of_primary_key":"func_cntPrimaryKey",
+    "primary_key_column":"func_getPrimaryKeyColumn",
+    "number_of_column":"func_cntNumberOfColumn",
+    "number_of_complete_record":"func_cntNumberOfCompleteRecord",
+    "ratio_of_complete_record":"func_cntRatioOfCompleteRecord",
+    "ratio_of_complete_column":"func_cntRatioOfCompleteColumn",
+    "number_of_blank_column":"func_cntNumberOfBlankColumn",
+    "number_of_complete_column":"func_cntNumberOfCompleteColumn",
+    "number_of_missing_data":"func_cntNumberOfMissingData",
+    "ratio_of_missing_data":"func_cntRatioOfMissingData",
+    "column_profile":"func_getColumnProfile"
+}

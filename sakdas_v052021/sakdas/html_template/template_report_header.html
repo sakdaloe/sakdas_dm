@@ -1,0 +1,71 @@
+
+        <div>
+            <div class="row">
+                <div class="col-md-6 report-header">Data Profiling Report</div>
+                <div class="col-md-6 right">Profiling Date: @profilingDate</div>
+            </div>
+            <hr>
+        </div>
+        <div class="report-info">
+            <div>Profile Engine: @sakdasVersion</div>
+            <div>Profile Id: @profilingId</div>
+            <div>File Name: @fileName</div>
+            <div>Primary Key: @pk</div>
+            <div>Missing Condition: @missingCondition</div>
+        </div>
+        <div class='report-table-summary-block'>
+            <div class="report-table-summary-header">Summary</div>
+            <div class="row">
+                    <div class="col-md-3">
+                        <div class="block">
+                            <div class="content">@totalRecord</div>
+                            <div class="metric">Records</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="block">
+                            <div class="content">@totalColumn</div>
+                            <div class="metric">Columns</div>
+                        </div>
+                    </div>    
+                    <div class="col-md-3">
+                        <div class="block">
+                            <div class="content">@blankColumn</div>
+                            <div class="metric">Blank Column(s)</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="block">
+                            <div class="content">@perMissingData</div>
+                            <div class="metric">% Missing Data</div>
+                        </div>
+                    </div>             
+            </div>
+            <div class="row summary-bottom">
+                    <div class="col-md-3">
+                        <div class="block">
+                            <div class="content">@ARD</div>
+                            <div class="metric">After Remove Duplicated</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="block">
+                                <div class="content">@dupData</div>
+                                <div class="metric">Duplicated Record(s)</div>
+                            </div>
+                        </div> 
+                    <div class="col-md-3">
+                        <div class="block">
+                            <div class="content">@completedData</div>
+                            <div class="metric">Completed Record(s)</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="block">
+                            <div class="content">@perCompletedData</div>
+                            <div class="metric">% Completed Record(s)</div>
+                        </div>
+                    </div>            
+            </div>
+        </div>
+        

@@ -1,0 +1,1792 @@
+{
+    "profile_engine": "2.4.8",
+    "profile_id": "08130c77-178e-4d3b-b309-24b3c16cde36",
+    "data_name": "Test Data",
+    "profiling_datetime": "2021-05-16T15:17:43+0700",
+    "number_of_record": 15,
+    "number_of_record_after_dedup": 15,
+    "number_of_dupRecord": 0,
+    "column_list": [
+        {
+            "columnName": "CLIENTNUM",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Attrition_Flag",
+            "dataType": "Categorical"
+        },
+        {
+            "columnName": "Customer_Age",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Gender",
+            "dataType": "Categorical"
+        },
+        {
+            "columnName": "Dependent_count",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Education_Level",
+            "dataType": "Categorical"
+        },
+        {
+            "columnName": "Marital_Status",
+            "dataType": "Categorical"
+        },
+        {
+            "columnName": "Income_Category",
+            "dataType": "Categorical"
+        },
+        {
+            "columnName": "Card_Category",
+            "dataType": "Categorical"
+        },
+        {
+            "columnName": "Months_on_book",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Total_Relationship_Count",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Months_Inactive_12_mon",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Contacts_Count_12_mon",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Credit_Limit",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Total_Revolving_Bal",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Avg_Open_To_Buy",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Total_Amt_Chng_Q4_Q1",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Total_Trans_Amt",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Total_Trans_Ct",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Total_Ct_Chng_Q4_Q1",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Avg_Utilization_Ratio",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1",
+            "dataType": "Numerical"
+        },
+        {
+            "columnName": "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2",
+            "dataType": "Numerical"
+        }
+    ],
+    "number_of_primary_key": 6,
+    "primary_key_column": "CLIENTNUM,Credit_Limit,Avg_Open_To_Buy,Total_Amt_Chng_Q4_Q1,Total_Trans_Amt,Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1",
+    "number_of_column": 23,
+    "number_of_complete_record": 15,
+    "ratio_of_complete_record": 1.0,
+    "ratio_of_complete_column": 1.0,
+    "number_of_blank_column": 0,
+    "number_of_complete_column": 23,
+    "number_of_missing_data": 0,
+    "ratio_of_missing_data": 0.0,
+    "column_profile": {
+        "CLIENTNUM": {
+            "dataType": "Numerical",
+            "is_primary_key": true,
+            "distinct_value": 15,
+            "ratio_distinct_value": 1.0,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 9,
+            "data_lenght_max": 9,
+            "data_lenght_mean": 9.0,
+            "data_lenght_mode": 9,
+            "data_lenght_median": 9.0,
+            "data_lenght_std": 0.0,
+            "data_lenght_var": 0.0,
+            "min_value": 708790833.0,
+            "max_value": 818906208.0,
+            "mean": 747478283.0,
+            "median": 713982108.0,
+            "mode": 708790833.0,
+            "variance": 2222938584994553.5,
+            "std": 47148049.64,
+            "first_quartile": 710876170.5,
+            "third_quartile": 790129533.0,
+            "iqr": 79253362.5,
+            "minimum": 671249489.25,
+            "maximum": 829756214.25,
+            "negative_outliner_datapoint": 0,
+            "positive_outliner_datapoint": 0,
+            "top_5_data_value": [
+                {
+                    "data_value": 708790833,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 709106358,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 710599683,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 710821833,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 710930508,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "NNNNNNNNN",
+                    "ratio": 1.0
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "NNNNNNNNN",
+                    "cnt": 15,
+                    "ratio": 1.0
+                }
+            ]
+        },
+        "Attrition_Flag": {
+            "dataType": "Categorical",
+            "is_primary_key": false,
+            "distinct_value": 1,
+            "ratio_distinct_value": 0.07,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 17,
+            "data_lenght_max": 17,
+            "data_lenght_mean": 17.0,
+            "data_lenght_mode": 17,
+            "data_lenght_median": 17.0,
+            "data_lenght_std": 0.0,
+            "data_lenght_var": 0.0,
+            "top_5_data_value": [
+                {
+                    "data_value": "Existing Customer",
+                    "count_data_value": 15,
+                    "value_ratio": 1.0
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "XXXXXXXX XXXXXXXX",
+                    "ratio": 1.0
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "XXXXXXXX XXXXXXXX",
+                    "cnt": 15,
+                    "ratio": 1.0
+                }
+            ]
+        },
+        "Customer_Age": {
+            "dataType": "Numerical",
+            "is_primary_key": false,
+            "distinct_value": 13,
+            "ratio_distinct_value": 0.87,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 2,
+            "data_lenght_max": 2,
+            "data_lenght_mean": 2.0,
+            "data_lenght_mode": 2,
+            "data_lenght_median": 2.0,
+            "data_lenght_std": 0.0,
+            "data_lenght_var": 0.0,
+            "min_value": 32.0,
+            "max_value": 65.0,
+            "mean": 46.13,
+            "median": 45.0,
+            "mode": 40.0,
+            "variance": 81.12,
+            "std": 9.01,
+            "first_quartile": 40.0,
+            "third_quartile": 51.0,
+            "iqr": 11.0,
+            "minimum": 34.5,
+            "maximum": 56.5,
+            "negative_outliner_datapoint": 2,
+            "positive_outliner_datapoint": 1,
+            "top_5_data_value": [
+                {
+                    "data_value": 40,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 51,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 32,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 35,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 37,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "NN",
+                    "ratio": 1.0
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "NN",
+                    "cnt": 15,
+                    "ratio": 1.0
+                }
+            ]
+        },
+        "Gender": {
+            "dataType": "Categorical",
+            "is_primary_key": false,
+            "distinct_value": 2,
+            "ratio_distinct_value": 0.13,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 1,
+            "data_lenght_max": 1,
+            "data_lenght_mean": 1.0,
+            "data_lenght_mode": 1,
+            "data_lenght_median": 1.0,
+            "data_lenght_std": 0.0,
+            "data_lenght_var": 0.0,
+            "top_5_data_value": [
+                {
+                    "data_value": "M",
+                    "count_data_value": 12,
+                    "value_ratio": 0.8
+                },
+                {
+                    "data_value": "F",
+                    "count_data_value": 3,
+                    "value_ratio": 0.2
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "X",
+                    "ratio": 1.0
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "X",
+                    "cnt": 15,
+                    "ratio": 1.0
+                }
+            ]
+        },
+        "Dependent_count": {
+            "dataType": "Numerical",
+            "is_primary_key": false,
+            "distinct_value": 6,
+            "ratio_distinct_value": 0.4,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 1,
+            "data_lenght_max": 1,
+            "data_lenght_mean": 1.0,
+            "data_lenght_mode": 1,
+            "data_lenght_median": 1.0,
+            "data_lenght_std": 0.0,
+            "data_lenght_var": 0.0,
+            "min_value": 0.0,
+            "max_value": 5.0,
+            "mean": 2.73,
+            "median": 3.0,
+            "mode": 3.0,
+            "variance": 2.07,
+            "std": 1.44,
+            "first_quartile": 2.0,
+            "third_quartile": 3.5,
+            "iqr": 1.5,
+            "minimum": 1.25,
+            "maximum": 4.25,
+            "negative_outliner_datapoint": 2,
+            "positive_outliner_datapoint": 3,
+            "top_5_data_value": [
+                {
+                    "data_value": 3,
+                    "count_data_value": 5,
+                    "value_ratio": 0.33
+                },
+                {
+                    "data_value": 2,
+                    "count_data_value": 3,
+                    "value_ratio": 0.2
+                },
+                {
+                    "data_value": 1,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 4,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 5,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "N",
+                    "ratio": 1.0
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "N",
+                    "cnt": 15,
+                    "ratio": 1.0
+                }
+            ]
+        },
+        "Education_Level": {
+            "dataType": "Categorical",
+            "is_primary_key": false,
+            "distinct_value": 5,
+            "ratio_distinct_value": 0.33,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 7,
+            "data_lenght_max": 11,
+            "data_lenght_mean": 8.8,
+            "data_lenght_mode": 8,
+            "data_lenght_median": 8.0,
+            "data_lenght_std": 1.52,
+            "data_lenght_var": 2.31,
+            "top_5_data_value": [
+                {
+                    "data_value": "Graduate",
+                    "count_data_value": 6,
+                    "value_ratio": 0.4
+                },
+                {
+                    "data_value": "High School",
+                    "count_data_value": 3,
+                    "value_ratio": 0.2
+                },
+                {
+                    "data_value": "Uneducated",
+                    "count_data_value": 3,
+                    "value_ratio": 0.2
+                },
+                {
+                    "data_value": "Unknown",
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": "College",
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "XXXXXXXX",
+                    "ratio": 0.4
+                },
+                {
+                    "pattern": "XXXX XXXXXX",
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "XXXXXXXXXX",
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "XXXXXXX",
+                    "ratio": 0.2
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "XXXX XXXXXX",
+                    "cnt": 3,
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "XXXXXXXX",
+                    "cnt": 6,
+                    "ratio": 0.4
+                },
+                {
+                    "pattern": "XXXXXXXXXX",
+                    "cnt": 3,
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "XXXXXXX",
+                    "cnt": 3,
+                    "ratio": 0.2
+                }
+            ]
+        },
+        "Marital_Status": {
+            "dataType": "Categorical",
+            "is_primary_key": false,
+            "distinct_value": 3,
+            "ratio_distinct_value": 0.2,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 6,
+            "data_lenght_max": 7,
+            "data_lenght_mean": 6.73,
+            "data_lenght_mode": 7,
+            "data_lenght_median": 7.0,
+            "data_lenght_std": 0.46,
+            "data_lenght_var": 0.21,
+            "top_5_data_value": [
+                {
+                    "data_value": "Married",
+                    "count_data_value": 7,
+                    "value_ratio": 0.47
+                },
+                {
+                    "data_value": "Single",
+                    "count_data_value": 4,
+                    "value_ratio": 0.27
+                },
+                {
+                    "data_value": "Unknown",
+                    "count_data_value": 4,
+                    "value_ratio": 0.27
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "XXXXXXX",
+                    "ratio": 0.73
+                },
+                {
+                    "pattern": "XXXXXX",
+                    "ratio": 0.27
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "XXXXXXX",
+                    "cnt": 11,
+                    "ratio": 0.73
+                },
+                {
+                    "pattern": "XXXXXX",
+                    "cnt": 4,
+                    "ratio": 0.27
+                }
+            ]
+        },
+        "Income_Category": {
+            "dataType": "Categorical",
+            "is_primary_key": false,
+            "distinct_value": 5,
+            "ratio_distinct_value": 0.33,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 7,
+            "data_lenght_max": 14,
+            "data_lenght_mean": 11.27,
+            "data_lenght_mode": 11,
+            "data_lenght_median": 11.0,
+            "data_lenght_std": 2.09,
+            "data_lenght_var": 4.35,
+            "top_5_data_value": [
+                {
+                    "data_value": "$60K - $80K",
+                    "count_data_value": 5,
+                    "value_ratio": 0.33
+                },
+                {
+                    "data_value": "$80K - $120K",
+                    "count_data_value": 3,
+                    "value_ratio": 0.2
+                },
+                {
+                    "data_value": "Less than $40K",
+                    "count_data_value": 3,
+                    "value_ratio": 0.2
+                },
+                {
+                    "data_value": "$120K +",
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": "$40K - $60K",
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "$NNX - $NNX",
+                    "ratio": 0.47
+                },
+                {
+                    "pattern": "XXXX XXXX $NNX",
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "$NNX - $NNNX",
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "$NNNX +",
+                    "ratio": 0.13
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "$NNX - $NNX",
+                    "cnt": 7,
+                    "ratio": 0.47
+                },
+                {
+                    "pattern": "XXXX XXXX $NNX",
+                    "cnt": 3,
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "$NNX - $NNNX",
+                    "cnt": 3,
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "$NNNX +",
+                    "cnt": 2,
+                    "ratio": 0.13
+                }
+            ]
+        },
+        "Card_Category": {
+            "dataType": "Categorical",
+            "is_primary_key": false,
+            "distinct_value": 3,
+            "ratio_distinct_value": 0.2,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 4,
+            "data_lenght_max": 6,
+            "data_lenght_mean": 4.13,
+            "data_lenght_mode": 4,
+            "data_lenght_median": 4.0,
+            "data_lenght_std": 0.52,
+            "data_lenght_var": 0.27,
+            "top_5_data_value": [
+                {
+                    "data_value": "Blue",
+                    "count_data_value": 13,
+                    "value_ratio": 0.87
+                },
+                {
+                    "data_value": "Gold",
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": "Silver",
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "XXXX",
+                    "ratio": 0.93
+                },
+                {
+                    "pattern": "XXXXXX",
+                    "ratio": 0.07
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "XXXX",
+                    "cnt": 14,
+                    "ratio": 0.93
+                },
+                {
+                    "pattern": "XXXXXX",
+                    "cnt": 1,
+                    "ratio": 0.07
+                }
+            ]
+        },
+        "Months_on_book": {
+            "dataType": "Numerical",
+            "is_primary_key": false,
+            "distinct_value": 11,
+            "ratio_distinct_value": 0.73,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 2,
+            "data_lenght_max": 2,
+            "data_lenght_mean": 2.0,
+            "data_lenght_mode": 2,
+            "data_lenght_median": 2.0,
+            "data_lenght_std": 0.0,
+            "data_lenght_var": 0.0,
+            "min_value": 21.0,
+            "max_value": 54.0,
+            "mean": 36.93,
+            "median": 36.0,
+            "mode": 36.0,
+            "variance": 71.35,
+            "std": 8.45,
+            "first_quartile": 32.5,
+            "third_quartile": 41.5,
+            "iqr": 9.0,
+            "minimum": 28.0,
+            "maximum": 46.0,
+            "negative_outliner_datapoint": 2,
+            "positive_outliner_datapoint": 2,
+            "top_5_data_value": [
+                {
+                    "data_value": 36,
+                    "count_data_value": 5,
+                    "value_ratio": 0.33
+                },
+                {
+                    "data_value": 21,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 27,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 30,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 31,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "NN",
+                    "ratio": 1.0
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "NN",
+                    "cnt": 15,
+                    "ratio": 1.0
+                }
+            ]
+        },
+        "Total_Relationship_Count": {
+            "dataType": "Numerical",
+            "is_primary_key": false,
+            "distinct_value": 5,
+            "ratio_distinct_value": 0.33,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 1,
+            "data_lenght_max": 1,
+            "data_lenght_mean": 1.0,
+            "data_lenght_mode": 1,
+            "data_lenght_median": 1.0,
+            "data_lenght_std": 0.0,
+            "data_lenght_var": 0.0,
+            "min_value": 2.0,
+            "max_value": 6.0,
+            "mean": 4.6,
+            "median": 5.0,
+            "mode": 5.0,
+            "variance": 1.69,
+            "std": 1.3,
+            "first_quartile": 3.5,
+            "third_quartile": 5.5,
+            "iqr": 2.0,
+            "minimum": 2.5,
+            "maximum": 6.5,
+            "negative_outliner_datapoint": 0,
+            "positive_outliner_datapoint": 1,
+            "top_5_data_value": [
+                {
+                    "data_value": 5,
+                    "count_data_value": 6,
+                    "value_ratio": 0.4
+                },
+                {
+                    "data_value": 6,
+                    "count_data_value": 4,
+                    "value_ratio": 0.27
+                },
+                {
+                    "data_value": 3,
+                    "count_data_value": 3,
+                    "value_ratio": 0.2
+                },
+                {
+                    "data_value": 2,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 4,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "N",
+                    "ratio": 1.0
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "N",
+                    "cnt": 15,
+                    "ratio": 1.0
+                }
+            ]
+        },
+        "Months_Inactive_12_mon": {
+            "dataType": "Numerical",
+            "is_primary_key": false,
+            "distinct_value": 5,
+            "ratio_distinct_value": 0.33,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 1,
+            "data_lenght_max": 1,
+            "data_lenght_mean": 1.0,
+            "data_lenght_mode": 1,
+            "data_lenght_median": 1.0,
+            "data_lenght_std": 0.0,
+            "data_lenght_var": 0.0,
+            "min_value": 1.0,
+            "max_value": 6.0,
+            "mean": 2.07,
+            "median": 2.0,
+            "mode": 1.0,
+            "variance": 2.07,
+            "std": 1.44,
+            "first_quartile": 1.0,
+            "third_quartile": 2.5,
+            "iqr": 1.5,
+            "minimum": 0.25,
+            "maximum": 3.25,
+            "negative_outliner_datapoint": 2,
+            "positive_outliner_datapoint": 0,
+            "top_5_data_value": [
+                {
+                    "data_value": 1,
+                    "count_data_value": 7,
+                    "value_ratio": 0.47
+                },
+                {
+                    "data_value": 2,
+                    "count_data_value": 4,
+                    "value_ratio": 0.27
+                },
+                {
+                    "data_value": 3,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 4,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 6,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "N",
+                    "ratio": 1.0
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "N",
+                    "cnt": 15,
+                    "ratio": 1.0
+                }
+            ]
+        },
+        "Contacts_Count_12_mon": {
+            "dataType": "Numerical",
+            "is_primary_key": false,
+            "distinct_value": 4,
+            "ratio_distinct_value": 0.27,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 1,
+            "data_lenght_max": 1,
+            "data_lenght_mean": 1.0,
+            "data_lenght_mode": 1,
+            "data_lenght_median": 1.0,
+            "data_lenght_std": 0.0,
+            "data_lenght_var": 0.0,
+            "min_value": 0.0,
+            "max_value": 3.0,
+            "mean": 1.73,
+            "median": 2.0,
+            "mode": 2.0,
+            "variance": 1.5,
+            "std": 1.22,
+            "first_quartile": 0.5,
+            "third_quartile": 3.0,
+            "iqr": 2.5,
+            "minimum": -0.75,
+            "maximum": 4.25,
+            "negative_outliner_datapoint": 0,
+            "positive_outliner_datapoint": 0,
+            "top_5_data_value": [
+                {
+                    "data_value": 2,
+                    "count_data_value": 5,
+                    "value_ratio": 0.33
+                },
+                {
+                    "data_value": 3,
+                    "count_data_value": 5,
+                    "value_ratio": 0.33
+                },
+                {
+                    "data_value": 0,
+                    "count_data_value": 4,
+                    "value_ratio": 0.27
+                },
+                {
+                    "data_value": 1,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "N",
+                    "ratio": 1.0
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "N",
+                    "cnt": 15,
+                    "ratio": 1.0
+                }
+            ]
+        },
+        "Credit_Limit": {
+            "dataType": "Numerical",
+            "is_primary_key": true,
+            "distinct_value": 15,
+            "ratio_distinct_value": 1.0,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 4,
+            "data_lenght_max": 5,
+            "data_lenght_mean": 4.4,
+            "data_lenght_mode": 4,
+            "data_lenght_median": 4.0,
+            "data_lenght_std": 0.51,
+            "data_lenght_var": 0.26,
+            "min_value": 2436.0,
+            "max_value": 34516.0,
+            "mean": 11505.73,
+            "median": 8547.0,
+            "mode": 2436.0,
+            "variance": 94452347.5,
+            "std": 9718.66,
+            "first_quartile": 4363.0,
+            "third_quartile": 12221.0,
+            "iqr": 7858.0,
+            "minimum": 434.0,
+            "maximum": 16150.0,
+            "negative_outliner_datapoint": 3,
+            "positive_outliner_datapoint": 0,
+            "top_5_data_value": [
+                {
+                    "data_value": 2436,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 3313,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 3418,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 4010,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 4716,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "NNNN",
+                    "ratio": 0.6
+                },
+                {
+                    "pattern": "NNNNN",
+                    "ratio": 0.4
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "NNNNN",
+                    "cnt": 6,
+                    "ratio": 0.4
+                },
+                {
+                    "pattern": "NNNN",
+                    "cnt": 9,
+                    "ratio": 0.6
+                }
+            ]
+        },
+        "Total_Revolving_Bal": {
+            "dataType": "Numerical",
+            "is_primary_key": false,
+            "distinct_value": 12,
+            "ratio_distinct_value": 0.8,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 1,
+            "data_lenght_max": 4,
+            "data_lenght_mean": 3.2,
+            "data_lenght_mode": 4,
+            "data_lenght_median": 4.0,
+            "data_lenght_std": 1.21,
+            "data_lenght_var": 1.46,
+            "min_value": 0.0,
+            "max_value": 2517.0,
+            "mean": 1243.93,
+            "median": 1396.0,
+            "mode": 0.0,
+            "variance": 725765.35,
+            "std": 851.92,
+            "first_quartile": 728.5,
+            "third_quartile": 1671.5,
+            "iqr": 943.0,
+            "minimum": 257.0,
+            "maximum": 2143.0,
+            "negative_outliner_datapoint": 3,
+            "positive_outliner_datapoint": 3,
+            "top_5_data_value": [
+                {
+                    "data_value": 0,
+                    "count_data_value": 3,
+                    "value_ratio": 0.2
+                },
+                {
+                    "data_value": 2517,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 680,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 777,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 864,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "NNNN",
+                    "ratio": 0.6
+                },
+                {
+                    "pattern": "NNN",
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "N",
+                    "ratio": 0.2
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "NNN",
+                    "cnt": 3,
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "N",
+                    "cnt": 3,
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "NNNN",
+                    "cnt": 9,
+                    "ratio": 0.6
+                }
+            ]
+        },
+        "Avg_Open_To_Buy": {
+            "dataType": "Numerical",
+            "is_primary_key": true,
+            "distinct_value": 15,
+            "ratio_distinct_value": 1.0,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 3,
+            "data_lenght_max": 5,
+            "data_lenght_mean": 4.27,
+            "data_lenght_mode": 4,
+            "data_lenght_median": 4.0,
+            "data_lenght_std": 0.59,
+            "data_lenght_var": 0.35,
+            "min_value": 796.0,
+            "max_value": 32252.0,
+            "mean": 10261.8,
+            "median": 7392.0,
+            "mode": 796.0,
+            "variance": 87974518.17,
+            "std": 9379.47,
+            "first_quartile": 4067.0,
+            "third_quartile": 11832.5,
+            "iqr": 7765.5,
+            "minimum": 184.25,
+            "maximum": 15715.25,
+            "negative_outliner_datapoint": 3,
+            "positive_outliner_datapoint": 0,
+            "top_5_data_value": [
+                {
+                    "data_value": 796,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 1756,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 2763,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 3418,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 4716,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "NNNN",
+                    "ratio": 0.6
+                },
+                {
+                    "pattern": "NNNNN",
+                    "ratio": 0.33
+                },
+                {
+                    "pattern": "NNN",
+                    "ratio": 0.07
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "NNNNN",
+                    "cnt": 5,
+                    "ratio": 0.33
+                },
+                {
+                    "pattern": "NNNN",
+                    "cnt": 9,
+                    "ratio": 0.6
+                },
+                {
+                    "pattern": "NNN",
+                    "cnt": 1,
+                    "ratio": 0.07
+                }
+            ]
+        },
+        "Total_Amt_Chng_Q4_Q1": {
+            "dataType": "Numerical",
+            "is_primary_key": true,
+            "distinct_value": 15,
+            "ratio_distinct_value": 1.0,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 4,
+            "data_lenght_max": 5,
+            "data_lenght_mean": 4.93,
+            "data_lenght_mode": 5,
+            "data_lenght_median": 5.0,
+            "data_lenght_std": 0.26,
+            "data_lenght_var": 0.07,
+            "min_value": 0.83,
+            "max_value": 3.4,
+            "mean": 1.83,
+            "median": 1.52,
+            "mode": 0.83,
+            "variance": 0.6,
+            "std": 0.78,
+            "first_quartile": 1.36,
+            "third_quartile": 2.19,
+            "iqr": 0.83,
+            "minimum": 0.94,
+            "maximum": 2.6,
+            "negative_outliner_datapoint": 2,
+            "positive_outliner_datapoint": 1,
+            "top_5_data_value": [
+                {
+                    "data_value": 0.831,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 1.163,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 1.19,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 1.335,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 1.376,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "N.NNN",
+                    "ratio": 0.93
+                },
+                {
+                    "pattern": "N.NN",
+                    "ratio": 0.07
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "N.NNN",
+                    "cnt": 14,
+                    "ratio": 0.93
+                },
+                {
+                    "pattern": "N.NN",
+                    "cnt": 1,
+                    "ratio": 0.07
+                }
+            ]
+        },
+        "Total_Trans_Amt": {
+            "dataType": "Numerical",
+            "is_primary_key": true,
+            "distinct_value": 15,
+            "ratio_distinct_value": 1.0,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 3,
+            "data_lenght_max": 4,
+            "data_lenght_mean": 3.93,
+            "data_lenght_mode": 4,
+            "data_lenght_median": 4.0,
+            "data_lenght_std": 0.26,
+            "data_lenght_var": 0.07,
+            "min_value": 816.0,
+            "max_value": 1887.0,
+            "mean": 1332.73,
+            "median": 1314.0,
+            "mode": 816.0,
+            "variance": 62058.5,
+            "std": 249.12,
+            "first_quartile": 1186.0,
+            "third_quartile": 1489.5,
+            "iqr": 303.5,
+            "minimum": 1034.25,
+            "maximum": 1641.25,
+            "negative_outliner_datapoint": 1,
+            "positive_outliner_datapoint": 1,
+            "top_5_data_value": [
+                {
+                    "data_value": 816,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 1088,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 1144,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 1171,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 1201,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "NNNN",
+                    "ratio": 0.93
+                },
+                {
+                    "pattern": "NNN",
+                    "ratio": 0.07
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "NNNN",
+                    "cnt": 14,
+                    "ratio": 0.93
+                },
+                {
+                    "pattern": "NNN",
+                    "cnt": 1,
+                    "ratio": 0.07
+                }
+            ]
+        },
+        "Total_Trans_Ct": {
+            "dataType": "Numerical",
+            "is_primary_key": false,
+            "distinct_value": 11,
+            "ratio_distinct_value": 0.73,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 2,
+            "data_lenght_max": 2,
+            "data_lenght_mean": 2.0,
+            "data_lenght_mode": 2,
+            "data_lenght_median": 2.0,
+            "data_lenght_std": 0.0,
+            "data_lenght_var": 0.0,
+            "min_value": 17.0,
+            "max_value": 42.0,
+            "mean": 29.13,
+            "median": 29.0,
+            "mode": 20.0,
+            "variance": 56.98,
+            "std": 7.55,
+            "first_quartile": 24.0,
+            "third_quartile": 33.0,
+            "iqr": 9.0,
+            "minimum": 19.5,
+            "maximum": 37.5,
+            "negative_outliner_datapoint": 2,
+            "positive_outliner_datapoint": 1,
+            "top_5_data_value": [
+                {
+                    "data_value": 20,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 24,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 33,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 42,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 17,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "NN",
+                    "ratio": 1.0
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "NN",
+                    "cnt": 15,
+                    "ratio": 1.0
+                }
+            ]
+        },
+        "Total_Ct_Chng_Q4_Q1": {
+            "dataType": "Numerical",
+            "is_primary_key": false,
+            "distinct_value": 14,
+            "ratio_distinct_value": 0.93,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 3,
+            "data_lenght_max": 18,
+            "data_lenght_mean": 5.47,
+            "data_lenght_mode": 5,
+            "data_lenght_median": 5.0,
+            "data_lenght_std": 3.54,
+            "data_lenght_var": 12.55,
+            "min_value": 0.61,
+            "max_value": 3.71,
+            "mean": 1.65,
+            "median": 1.36,
+            "mode": 2.33,
+            "variance": 0.99,
+            "std": 1.0,
+            "first_quartile": 0.78,
+            "third_quartile": 2.33,
+            "iqr": 1.55,
+            "minimum": 0.0,
+            "maximum": 3.11,
+            "negative_outliner_datapoint": 2,
+            "positive_outliner_datapoint": 0,
+            "top_5_data_value": [
+                {
+                    "data_value": 2.333,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 0.611,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 0.68,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 0.7140000000000001,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 0.722,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "N.NNN",
+                    "ratio": 0.67
+                },
+                {
+                    "pattern": "N.N",
+                    "ratio": 0.13
+                },
+                {
+                    "pattern": "N.NN",
+                    "ratio": 0.13
+                },
+                {
+                    "pattern": "N.NNNNNNNNNNNNNNNN",
+                    "ratio": 0.07
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "N.NNN",
+                    "cnt": 10,
+                    "ratio": 0.67
+                },
+                {
+                    "pattern": "N.N",
+                    "cnt": 2,
+                    "ratio": 0.13
+                },
+                {
+                    "pattern": "N.NNNNNNNNNNNNNNNN",
+                    "cnt": 1,
+                    "ratio": 0.07
+                },
+                {
+                    "pattern": "N.NN",
+                    "cnt": 2,
+                    "ratio": 0.13
+                }
+            ]
+        },
+        "Avg_Utilization_Ratio": {
+            "dataType": "Numerical",
+            "is_primary_key": false,
+            "distinct_value": 13,
+            "ratio_distinct_value": 0.87,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 3,
+            "data_lenght_max": 19,
+            "data_lenght_mean": 6.4,
+            "data_lenght_mode": 5,
+            "data_lenght_median": 5.0,
+            "data_lenght_std": 5.18,
+            "data_lenght_var": 26.83,
+            "min_value": 0.0,
+            "max_value": 0.76,
+            "mean": 0.16,
+            "median": 0.11,
+            "mode": 0.0,
+            "variance": 0.04,
+            "std": 0.19,
+            "first_quartile": 0.05,
+            "third_quartile": 0.21,
+            "iqr": 0.16,
+            "minimum": -0.03,
+            "maximum": 0.29,
+            "negative_outliner_datapoint": 2,
+            "positive_outliner_datapoint": 0,
+            "top_5_data_value": [
+                {
+                    "data_value": 0.0,
+                    "count_data_value": 3,
+                    "value_ratio": 0.2
+                },
+                {
+                    "data_value": 0.048,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 0.061,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 0.066,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 0.105,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "N.NNN",
+                    "ratio": 0.6
+                },
+                {
+                    "pattern": "N.N",
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "N.NNNNNNNNNNNNNNNNN",
+                    "ratio": 0.13
+                },
+                {
+                    "pattern": "N.NN",
+                    "ratio": 0.07
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "N.NNN",
+                    "cnt": 9,
+                    "ratio": 0.6
+                },
+                {
+                    "pattern": "N.N",
+                    "cnt": 3,
+                    "ratio": 0.2
+                },
+                {
+                    "pattern": "N.NN",
+                    "cnt": 1,
+                    "ratio": 0.07
+                },
+                {
+                    "pattern": "N.NNNNNNNNNNNNNNNNN",
+                    "cnt": 2,
+                    "ratio": 0.13
+                }
+            ]
+        },
+        "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1": {
+            "dataType": "Numerical",
+            "is_primary_key": true,
+            "distinct_value": 15,
+            "ratio_distinct_value": 1.0,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 10,
+            "data_lenght_max": 22,
+            "data_lenght_mean": 12.27,
+            "data_lenght_mode": 10,
+            "data_lenght_median": 10.0,
+            "data_lenght_std": 4.7,
+            "data_lenght_var": 22.07,
+            "min_value": 0.0,
+            "max_value": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "mode": 0.0,
+            "variance": 0.0,
+            "std": 0.0,
+            "first_quartile": 0.0,
+            "third_quartile": 0.0,
+            "iqr": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0,
+            "negative_outliner_datapoint": 0,
+            "positive_outliner_datapoint": 0,
+            "top_5_data_value": [
+                {
+                    "data_value": 2.1081e-05,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 2.1676e-05,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 4.4796e-05,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 4.7798999999999994e-05,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 5.5077e-05,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "N.NNNNX-NN",
+                    "ratio": 0.4
+                },
+                {
+                    "pattern": "N.NNNNNNNN",
+                    "ratio": 0.4
+                },
+                {
+                    "pattern": "N.NNNNNNNNNNNNNNNX-NN",
+                    "ratio": 0.13
+                },
+                {
+                    "pattern": "N.NNNNNNNNNNNNNNNNX-NN",
+                    "ratio": 0.07
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "N.NNNNNNNNNNNNNNNX-NN",
+                    "cnt": 2,
+                    "ratio": 0.13
+                },
+                {
+                    "pattern": "N.NNNNX-NN",
+                    "cnt": 6,
+                    "ratio": 0.4
+                },
+                {
+                    "pattern": "N.NNNNNNNN",
+                    "cnt": 6,
+                    "ratio": 0.4
+                },
+                {
+                    "pattern": "N.NNNNNNNNNNNNNNNNX-NN",
+                    "cnt": 1,
+                    "ratio": 0.07
+                }
+            ]
+        },
+        "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2": {
+            "dataType": "Numerical",
+            "is_primary_key": false,
+            "distinct_value": 12,
+            "ratio_distinct_value": 0.8,
+            "missing_value": 0,
+            "ratio_missing_value": 0.0,
+            "data_lenght_min": 6,
+            "data_lenght_max": 18,
+            "data_lenght_mean": 11.93,
+            "data_lenght_mode": 18,
+            "data_lenght_median": 7.0,
+            "data_lenght_std": 5.89,
+            "data_lenght_var": 34.64,
+            "min_value": 1.0,
+            "max_value": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "mode": 1.0,
+            "variance": 0.0,
+            "std": 0.0,
+            "first_quartile": 1.0,
+            "third_quartile": 1.0,
+            "iqr": 0.0,
+            "minimum": 1.0,
+            "maximum": 1.0,
+            "negative_outliner_datapoint": 0,
+            "positive_outliner_datapoint": 0,
+            "top_5_data_value": [
+                {
+                    "data_value": 0.9999100000000001,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 0.9999399999999999,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 0.99998,
+                    "count_data_value": 2,
+                    "value_ratio": 0.13
+                },
+                {
+                    "data_value": 0.9997,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                },
+                {
+                    "data_value": 0.9998,
+                    "count_data_value": 1,
+                    "value_ratio": 0.07
+                }
+            ],
+            "top_5_data_pattern": [
+                {
+                    "pattern": "N.NNNNNNNNNNNNNNNN",
+                    "ratio": 0.47
+                },
+                {
+                    "pattern": "N.NNNNN",
+                    "ratio": 0.33
+                },
+                {
+                    "pattern": "N.NNNN",
+                    "ratio": 0.2
+                }
+            ],
+            "data_pattern": [
+                {
+                    "pattern": "N.NNNNNNNNNNNNNNNN",
+                    "cnt": 7,
+                    "ratio": 0.47
+                },
+                {
+                    "pattern": "N.NNNNN",
+                    "cnt": 5,
+                    "ratio": 0.33
+                },
+                {
+                    "pattern": "N.NNNN",
+                    "cnt": 3,
+                    "ratio": 0.2
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,153 @@
+<div class="container-fluid">
+    <div class="row viz-block">
+        <div class="col-md-6 viz">
+            <div>
+                Top 5 Unique Data
+            </div>
+            <div>
+                <img class="img-responsive landscape"  alt="Responsive image"  src=@pathTop5Unique alt="Flowers in Chania">
+            </div>
+        </div>
+        <div class="col-md-6 viz">
+            <div>
+                Top 5 Unique Pattern
+            </div>
+            <div>
+                <img class="img-responsive landscape"  alt="Responsive image"  src=@pathTop5Pattern alt="Flowers in Chania">
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 viz">
+            <div>
+                Histogram
+            </div>
+            <div>
+                <img class="img-responsive landscape"  alt="Responsive image"  src=@pathHist alt="Flowers in Chania">
+            </div>
+        </div>
+        <div class="col-md-6 viz">
+            <div>
+                Boxplot
+            </div>
+            <div>
+                <img class="img-responsive landscape"  alt="Responsive image"  src=@pathBoxplot alt="Flowers in Chania">
+            </div>
+
+        </div>
+    </div>        
+</div>
+    
+<div class="container-fluid table-block">
+    <div class="row">
+        <div class="col-md-6 table-a">
+            <div class="table-header">
+                Metrics
+            </div>
+            <div>
+                <table class="table-striped table-hover table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Metrics</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>distinct value</td>
+                        <td>@distinct_value</td>   
+                    </tr>
+                    <tr>
+                        <td>min</td>
+                        <td>@min_value</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>max</td>
+                        <td>@max_value</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>mean</td>
+                        <td>@mean</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>mode</td>
+                        <td>@mode</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>median</td>
+                        <td>@median</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Variance</td>
+                        <td>@variance</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Standard deviation</td>
+                        <td>@std</td>
+                        
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6 table-a">
+            <div class="table-header">
+                Metrics
+            </div>
+            <div>
+                <table class="table-striped table-hover table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Metrics</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>    
+                    <tr>
+                        <td>median</td>
+                        <td>@median</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>first quartile</td>
+                        <td>@first_quartile</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>third_quartile</td>
+                        <td>@third_quartile</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>iqr</td>
+                        <td>@iqr</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>minimum</td>
+                        <td>@minimum</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>maximum</td>
+                        <td>@maximum</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>upper outliner datapoint</td>
+                        <td>@negative_outliner_datapoint</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>lower outliner datapoint</td>
+                        <td>@positive_outliner_datapoint</td>   
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

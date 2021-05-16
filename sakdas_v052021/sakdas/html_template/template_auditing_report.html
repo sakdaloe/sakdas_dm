@@ -1,0 +1,36 @@
+<div class="column-profile-block">
+    <div class="col column-profile-header">Audited Results</div>
+    <div class="container-fluid">
+            <div class="row">
+                    <img class="pi_img"  alt="Responsive image"  src=@piplot alt="Flowers in Chania">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="column-block">
+                        <div class="content">@auditedRecord</div>
+                        <div class="metric">Audited Records</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="column-block">
+                        <div class="content">@pass</div>
+                        <div class="metric">Pass</div>
+                    </div>
+                </div>    
+                <div class="col">
+                    <div class="column-block">
+                        <div class="content">@ppct</div>
+                        <div class="metric">Pass(%)</div>
+                    </div>
+                </div>
+                
+                            
+            </div>
+            <div class="container-fluid table-block">      
+                @audit_OOR
+                @audit_pattern
+                @audit_outlier
+                @audit_missing
+            </div>
+        </div>
+</div>
